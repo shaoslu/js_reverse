@@ -27,8 +27,8 @@ cookies = {
 }
 url = "https://m.ctyun.cn/account/login"
 
-username = '416693904@qq.com'
-password = 'qq111111!'
+username = 'aaa@qq.com'
+password = 'bbbbbb'
 
 cmd = '/opt/homebrew/bin/node -e "require(\'{}\').init(\'{}\', \'{}\')"' .format('./天翼云.js', username, password)
 pipeline = os.popen(cmd)

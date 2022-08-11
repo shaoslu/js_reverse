@@ -42,8 +42,8 @@ import requests
 data = {
     "group": "tyx",
     "action": "login",
-    'username':'416693904@qq.com',
-    'password': 'qq111111!'
+    'username':'aaaa@qq.com',
+    'password': 'bbbbb'
 }
 res = requests.get("http://127.0.0.1:5620/business-demo/invoke", params=data )
 print(res.text)
